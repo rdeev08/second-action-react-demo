@@ -5,9 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Get code
-        uses: action/checkout@latest
+        uses: actions/checkout@latest
       - name: Install NodeJS
-        uses: action/setup-node@latest
+        uses: actions/setup-node@latest
         with:
           node-version: 18
       - name: Install dependencies test
